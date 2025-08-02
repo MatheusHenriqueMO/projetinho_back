@@ -1,24 +1,26 @@
-# README
+# Projetinho (Backend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Backend básico em Ruby on Rails com autenticação de usuários via Devise.
 
-Things you may want to cover:
+## Requisitos
 
-* Ruby version
+- Ruby 3.x
+- Rails 7.x
+- SQLite3
 
-* System dependencies
+## Instalação
 
-* Configuration
+1. Clone o repositório:
+git clone https://github.com/MatheusHenriqueMO/projetinho_back.git
+cd projetinho_back
 
-* Database creation
+2. Instale as dependências:
+bundle install
 
-* Database initialization
+3. Configure o banco de dados:
+rails db:create db:migrate
 
-* How to run the test suite
+4. Rode o servidor:
+rails server
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+6. Acesse em http://localhost:3000
