@@ -4,8 +4,8 @@ Backend básico em Ruby on Rails com autenticação de usuários via Devise.
 
 ## Requisitos
 
-- Ruby 3.x
-- Rails 7.x
+- Ruby 3.2.6
+- Rails 7.0.8
 - SQLite3
 
 ## Instalação
